@@ -14,13 +14,13 @@ def reset_timer(*args):
     last_click = time.time()
 
 def shutdown(*args):
-    os = platform.system().lower()
+    ops = platform.system().lower()
 
-    if 'windows' in os:
+    if 'windows' in ops:
         os.system('shutdown /s /t 1')
-    elif 'linux' in os:
-        os.system()
-    elif 'darwin' in os:
+    elif 'linux' in ops:
+        os.system('sudo shutdown -h now')
+    elif 'darwin' in ops:
         os.system('sudo shutdown -h now')
     else:
         pass
