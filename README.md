@@ -22,7 +22,7 @@ Libraries:
 
 # How to run:
 
-Just install the dist folder and run the application inside. 
+Just install the .exe file and run it. (It runs as a hidden window in the backgroud, you can turn it off through task manager.)  
 
 # Any plans for future updates?:
 
