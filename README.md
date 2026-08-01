@@ -6,7 +6,7 @@ This is just a quick project I made called "AutoShutdown". I keep forgetting to 
 
 It watches your mouse movement or keystrokes to recognize that you are at/using your computer. If it senses you are idle for a set amount of time it will automatically power down your device.
 
-This project should run on Linux, MacOS, and Windows.
+This project will run perfectly fine on MacOS, Windows or Linux. 
 
 # Tech stack:
 
@@ -17,11 +17,12 @@ Libraries:
     -OS
     -Time
     -Sys
-    -PyAutoGui
+    -Platform
+    -Pynput
 
 # How to run:
 
-To be honest I am not sure yet, I will update this when it is finished. 
+Just install the dist folder and run the application inside. 
 
 # Any plans for future updates?:
 
