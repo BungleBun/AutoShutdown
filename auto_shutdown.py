@@ -28,6 +28,9 @@ def shutdown(*args):
 mouse = pynput.mouse.Listener(on_move=reset_timer, on_click=reset_timer, on_scroll=reset_timer)
 keyboard = pynput.keyboard.Listener(on_press=reset_timer)
 
+mouse.start()
+keyboard.start()
+
 try:
     while True:
         idle_time = time.time() - last_click
